@@ -1,0 +1,89 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="./css-reset.css">
+  <title>Abra Labs drill</title>
+</head>
+
+<body>
+</body>
+
+<div class="container">
+
+  <header>
+    <div class="logo">
+
+      <img src="./imgs/logo.png" alt="">
+    </div>
+  </header>
+  <article id="react-article">
+    <h1 class="headline">React</h1>
+    <p class="subtext">A javascript library for building user interfaces</p>
+    <button class="button-1">get started</button><button class="button-2">tutorial</button><br>
+    <div class="articlePara-1">
+      <h2 class="firstHead">
+        Learn Once, Write Anywhere
+      </h2>
+      <p class="firstPara">
+        We don’t make assumptions about the rest of your technology stack, so you can develop new features in React
+        without rewriting existing code.
+        React can render on the server using Node and power mobile apps using
+        <a href="#" class="paraLink">React Native.</a>
+      </p>
+    </div>
+
+    <div class="articlePara-2">
+
+      <h2 class="secondHead">
+        A Simple Component
+      </h2>
+      <div class="secondPara">
+        <span class="insideText-1">
+
+          React components implement a
+          <strong>render()</strong>
+          method that takes input data and returns what to display. This example uses an XML-like syntax called JSX.
+          Input
+          data that is passed into the component can be accessed by
+          <strong>render()</strong>
+          via
+          <strong>this.props</strong>.
+        </span>
+
+        <span class="insideText-2">
+          JSX is optional and not required to use React. Try the
+          <a href="#" class="paraLink-2">Babel REPL</a>
+          to see the raw JavaScript code produced by the JSX compilation step.
+        </span>
+
+      </div>
+      <img src="./imgs/image p2.jpg" class="codeImage">
+    </div>
+    <div class="articlePara-3">
+      <h2 class="thirdHead">Basic List Component</h2>
+      <ol class="numList">
+        <li> Usually you would render lists inside a component.</li>
+        <li>We can refactor the previous example into a component that accepts an array of numbers and outputs a
+          list of elements.</li>
+        <li>When you run this code, you’ll be given a warning that a key should be provided for
+          list items.</li>
+        <ul class="bulletList">
+          <li>A “key” is a special string attribute you need to include when creating lists of elements. </li>
+          <li>We’ll discuss why it’s important in the next section.</li>
+          <li>Let’s assign a <strong> key </strong> to our list items inside <strong>numbers.map() </strong> and
+            fix the missing key
+            issue.</li>
+        </ul>
+      </ol>
+      <div class="codeBlock">
+
+        <img src="./imgs/image p3.jpg" class="codeImage-2">
+      </div>
+    </div>
+    <a href="https://www.abra-it.com/" class="abraLink"> Try it on Abra-Labs</a>
+
+  </article>
+</div>
+
+</html>
