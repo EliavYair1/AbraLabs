@@ -1,0 +1,14 @@
+#abraLabs-2 {
+  width: 100vw;
+  height: 100vh;
+  flex-grow: 0;
+  background-color: #fcfaf7;
+  text-align: center;
+}
+.logo {
+  width: 100vw;
+  height: 100px;
+  margin: 01 0 32px;
+  padding: 20px 0vw 20px 40vw;
+  background-color: #0e1649;
+}
