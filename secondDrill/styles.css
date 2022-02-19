@@ -14,12 +14,11 @@
 
 #registration {
   display: flex;
+  flex-flow: row wrap;
   justify-content: center;
-  align-items: center;
+  flex-direction: row;
 }
 .mainHeader {
-  width: 587px;
-  height: 72px;
   margin: 40px 0 40px 0;
   font-size: 60px;
   text-transform: capitalize;
@@ -28,4 +27,131 @@
   color: #0e1649;
   line-height: 1;
   font-family: 'Times New Roman';
+}
+.collab {
+  width: 100%;
+  margin: 0px 0 40px 0;
+  font-family: Arial;
+  font-size: 18px;
+  color: #1c1c1c;
+}
+.iIA {
+  width: 368px;
+  height: 100px;
+  margin: 0 109px 0 110px;
+  object-fit: contain;
+}
+.secondHead {
+  width: 100%;
+  margin: 40px 403px 16px 403px;
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 0.64px;
+  color: #ff7748;
+}
+.secondPara {
+  width: 870px;
+  height: 100px;
+  margin: 16px 285px 40px 285px;
+  font-family: Arial;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #1c1c1c;
+}
+.subtext {
+  width: 870px;
+  margin: 16px 285px 40px 285px;
+  font-family: 'Times New Roman';
+  font-size: 18px;
+  line-height: 1.67;
+  color: #0e1649;
+}
+.readMore {
+  display: flex;
+  margin: 0px 222px 0;
+  padding: 16px 106px 16px 106px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  background-color: #ff7748;
+  border: solid 2px #ff7748;
+  font-weight: bold;
+  font-family: 'Courier New';
+  font-size: 22px;
+  font-style: italic;
+  color: #fff;
+  letter-spacing: 2.2px;
+}
+.hRow {
+  width: 100%;
+  height: 1px;
+  background-color: #e1e1e1;
+  margin: 39px 64px 40px 64px;
+}
+.formHeader {
+  width: 297px;
+  height: 34px;
+  flex-grow: 0;
+  margin: 40px 572px 16px 572px;
+  font-family: TimesNewRoman;
+  font-size: 30px;
+  font-weight: bold;
+  color: #0e1649;
+}
+.subFormHead {
+  width: 548px;
+  height: 21px;
+  margin: 16px 446px 32px 446px;
+  font-family: Arial;
+  font-size: 18px;
+  letter-spacing: 0.36px;
+  color: #1c1c1c;
+}
+.formInput {
+  width: 426px;
+  height: 56px;
+  margin: 32px 507px 32px 507px;
+  display: flex;
+  padding: 16px 328px 16px 24px;
+  border-radius: 100px;
+  border: solid 1px #1c1c1c;
+}
+.formInput::placeholder {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: capitalize;
+  color: #555a7d;
+  opacity: 0.9;
+}
+.formBtn {
+  width: 426px;
+  height: 57px;
+  border-radius: 100px;
+  background-color: #ff7748;
+  border: solid 2px #ff7748;
+  color: #fff;
+  font-style: italic;
+  letter-spacing: 2.2px;
+  font-family: 'Courier New';
+  font-size: 22px;
+  font-weight: bold;
+}
+.contactUs {
+  width: 175px;
+  height: 32px;
+  margin: 129px 632px 16px 633px;
+  font-family: Roboto;
+  font-size: 24px;
+  display: flex;
+  line-height: 1.33;
+  text-align: center;
+  color: #ff5288;
+  text-transform: capitalize;
+}
+.footerBgc {
+  width: 100vw;
+  margin: 16px 0 0;
+  object-fit: contain;
 }
