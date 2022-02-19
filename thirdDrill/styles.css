@@ -1,0 +1,142 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  padding: 0 0 64px 0;
+  background-color: #fcfaf7;
+}
+.logo {
+  width: 100%;
+  height: 100px;
+  margin: 0 0 32px;
+  padding: 20px 1134px 20px 64px;
+  background-color: #fcfaf7;
+}
+.mainSection {
+  width: 100%;
+  margin: 0 0 0 64px;
+  color: #ffffff;
+}
+.mainHeader {
+  width: 247px;
+  height: 47px;
+  font-family: inter;
+  margin: 0 0 64px;
+  font-size: 36px;
+  line-height: 1.3;
+  text-align: left;
+  color: #0e1649;
+}
+.subHeader {
+  width: 159px;
+  height: 31px;
+  margin: 64px 88px 45px 0;
+  font-family: Inter;
+  color: #000;
+  font-size: 24px;
+  font-weight: bolder;
+}
+.buttonSec {
+  width: 701px;
+  height: 97px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.default,
+.hover,
+.focus,
+.click {
+  font-family: Mulish;
+  line-height: 1.5;
+  color: #000;
+  font-size: 22px;
+  text-transform: capitalize;
+}
+.default {
+  width: 75px;
+  height: 33px;
+  margin: 13px 100px 0 0;
+}
+.hover {
+  width: 61px;
+  height: 33px;
+  flex-grow: 0;
+  margin: 13px 114px 11px 0;
+}
+.focus {
+  width: 60px;
+  height: 33px;
+  flex-grow: 0;
+  margin: 13px 115px 11px 0;
+}
+.click {
+  width: 48px;
+  height: 33px;
+  flex-grow: 0;
+  margin: 13px 127px 11px 0;
+}
+#defaultInp,
+#hoverInp,
+#focusInp,
+#clickInp {
+  width: 550px;
+  height: 57px;
+  flex-grow: 0;
+  display: flex;
+  font-family: 'Courier New';
+  font-size: 22px;
+  font-style: italic;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 2.2px;
+  padding: 16px 10px;
+  border-radius: 100px;
+  border: solid 2px #ff7748;
+}
+#defaultInp {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 40px 100px;
+  background-color: #ff7748;
+}
+
+#hoverInp {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 40px 100px;
+  background-color: #ff7748;
+}
+#hoverInp:hover {
+  background-color: #f55318;
+}
+#focusInp {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 40px 100px;
+  border: solid 2px #ff7748;
+  background-color: #ff7748;
+}
+
+#focusInp:focus {
+  border: solid 2px #cc4621;
+  background-color: #f55318;
+}
+#clickInp {
+  background-color: #ff7748;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 40px 100px;
+}
+
+#clickInp:active {
+  background-color: #ff8d66;
+}
