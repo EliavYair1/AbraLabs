@@ -69,19 +69,21 @@
 }
 .readMore {
   display: flex;
-  margin: 0px 222px 0;
-  padding: 16px 106px 16px 106px;
-  border-radius: 100px;
-  display: flex;
+  flex-direction: row;
   justify-content: center;
+  align-items: center;
+  margin: 0px 222px 0;
+  width: 426px;
+  height: 57px;
+  border-radius: 100px;
   background-color: #ff7748;
   border: solid 2px #ff7748;
-  font-weight: bold;
+  color: #fff;
+  font-style: italic;
+  letter-spacing: 2.2px;
   font-family: 'Courier New';
   font-size: 22px;
-  font-style: italic;
-  color: #fff;
-  letter-spacing: 2.2px;
+  font-weight: bold;
 }
 .hRow {
   width: 100%;
