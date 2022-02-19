@@ -1,0 +1,86 @@
+.mainSection {
+  width: 100%;
+  margin: 0 0 0 64px;
+  color: #ffffff;
+}
+.logo {
+  width: 100%;
+  height: 100px;
+  margin: 0 0 32px;
+  padding: 20px 1134px 20px 64px;
+  background-color: #fcfaf7;
+}
+.mainHeader {
+  width: 247px;
+  height: 47px;
+  font-family: inter;
+  margin: 0 0 64px;
+  font-size: 36px;
+  line-height: 1.3;
+  text-align: left;
+  color: #0e1649;
+  text-transform: capitalize;
+}
+.subHeader {
+  width: 159px;
+  height: 31px;
+  margin: 64px 88px 45px 0;
+  font-family: Inter;
+  color: #000;
+  font-size: 24px;
+  font-weight: bolder;
+  text-transform: capitalize;
+}
+.orangeBtn {
+  width: 380px;
+  height: 340px;
+  flex-grow: 0;
+  gap: 40px;
+  margin: 32px 173px 0 0;
+  padding: 0;
+}
+.defaultLabel,
+.hoverLabel,
+.focusLabel,
+.clickLabel {
+  width: 75px;
+  height: 33px;
+  font-family: Mulish;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #000;
+}
+
+#defaultInp,
+#hoverInp,
+#focusInp,
+#clickInp {
+  width: 205px;
+  height: 55px;
+  margin: 24px 16px 72px 0;
+  background-color: #ff9f00;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Arial;
+  text-transform: uppercase;
+  border-radius: 12px;
+  border: solid 2px #ff9f00;
+}
+
+#defaultInput,
+#hoverInput,
+#focusInput,
+#clickInput {
+  width: 205px;
+  height: 55px;
+  text-transform: uppercase;
+  border: solid 2px #ff9f00;
+  color: #ff9f00;
+  background-color: #fff;
+  font-family: Arial;
+  border-radius: 12px;
+  margin: 24px 0 72px 16px;
+  font-weight: bold;
+  font-size: 20px;
+}
