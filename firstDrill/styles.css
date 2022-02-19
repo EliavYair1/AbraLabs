@@ -52,6 +52,17 @@
   border-radius: 12px;
   border: solid 2px #ff9f00;
 }
+.button-1:hover {
+  background-color: #f08e0e;
+}
+.button-1:focus {
+  border: solid 2px #d87a00;
+  background-color: #f08e0e;
+}
+.button-1:active {
+  background-color: #fb3;
+}
+
 .button-2 {
   width: 205px;
   height: 55px;
@@ -64,6 +75,17 @@
   margin: 24px 0 72px 16px;
   font-weight: bold;
   font-size: 20px;
+}
+
+.button-2:hover {
+  border: solid 2px #f08e0e;
+  color: #f08e0e;
+}
+.button-2:focus {
+  background-color: #faefdd;
+}
+.button-2:active {
+  border: solid 2px #fb3;
 }
 .firstHead {
   width: 363px;
