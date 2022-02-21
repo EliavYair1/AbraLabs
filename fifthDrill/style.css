@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@600&display=swap');
+.container {
+  background-image: url('./imgs/Background.png');
+  width: 100%;
+  min-width: 500px;
+  height: 100vh;
+  object-fit: cover;
+}
+.logo {
+  width: 242px;
+  object-fit: contain;
+}
+.navbar {
+  padding: 20px 64px 0 64px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-links {
+  color: #fff;
+  font-family: Assistant;
+  font-weight: 600;
+  font-size: 24px;
+  padding: 10px;
+  text-transform: capitalize;
+}
+.nav-link {
+  width: 89px;
+  color: #fff;
+  margin: 16px;
+  text-decoration: none;
+}
+/* to do an hover of the nav-links */
+.signIn {
+  width: 426px;
+  margin: 228px auto;
+  font-family: Assistant;
+}
+section {
+  margin-bottom: 228px;
+}
+.form-header {
+  width: 340px;
+  margin: 0 auto;
+  font-size: 64px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 2.56px;
+  color: #fff;
+  text-transform: capitalize;
+}
+.subtext {
+  width: 450px;
+  margin: 17px 0 64px 0;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+input {
+  width: 426px;
+  height: 60px;
+  border-radius: 12px;
+  margin: 6px 0 0;
+}
+input::placeholder {
+  padding: 20px 279px 20px 16px;
+  color: #9094ab;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+}
+label {
+  margin-bottom: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+  text-transform: capitalize;
+}
+#email {
+  margin-bottom: 24px;
+}
+#password {
+  margin-bottom: 64px;
+}
+.form-btn {
+  width: 426px;
+  height: 60px;
+  margin: 0 248px 8px 0;
+  border-radius: 12px;
+  background: #ff9f00;
+  color: #fff;
+  font-family: Assistant;
+  font-size: 26px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-transform: capitalize;
+}
+span {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+span .redirect-link {
+  color: #ff9f00;
+  text-transform: capitalize;
+}
