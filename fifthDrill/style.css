@@ -24,20 +24,34 @@
   text-transform: capitalize;
 }
 .nav-link {
+  position: relative;
   width: 89px;
   color: #fff;
   margin: 16px;
   text-decoration: none;
 }
+.nav-link::after {
+  content: '';
+  position: absolute;
+  background-color: #fff;
+  z-index: 10;
+  height: 5.5px;
+  width: 0;
+  left: 25%;
+  bottom: -10px;
+  transition: 0.3s;
+}
+.nav-link:hover::after {
+  width: 50%;
+}
+
 /* to do an hover of the nav-links */
 .signIn {
   width: 426px;
-  margin: 228px auto;
+  margin: 148px auto;
   font-family: Assistant;
 }
-section {
-  margin-bottom: 228px;
-}
+
 .form-header {
   width: 340px;
   margin: 0 auto;
@@ -67,6 +81,7 @@ input {
   border-radius: 12px;
   margin: 6px 0 0;
 }
+
 input::placeholder {
   padding: 20px 279px 20px 16px;
   color: #9094ab;
@@ -110,6 +125,11 @@ label {
   line-height: normal;
   letter-spacing: normal;
   text-transform: capitalize;
+  border: none;
+}
+.form-btn:hover {
+  border: 2px solid #ff9000;
+  background-color: #ff9000;
 }
 span {
   display: flex;
