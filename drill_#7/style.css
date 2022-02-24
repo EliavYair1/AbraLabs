@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@800&display=swap');
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: url('./imgs/woman-img.png');
+  background-size: 100% 100vh;
+  background-repeat: no-repeat;
+  position: relative;
+  font-family: Arial;
+}
+.custom-made {
+  width: 581px;
+  height: 347px;
+  position: absolute;
+  left: 518px;
+  top: 238px;
+}
+.sidebar {
+  width: 343px;
+  height: 100%;
+  background-color: #0e1649;
+  display: block;
+  padding: 0 0 0 64px;
+}
+.sidebar img {
+  padding: 32px 21px 0 0;
+}
+#first-link {
+  margin-top: 64px;
+}
+.nav-links {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  display: block;
+  margin-bottom: 24px;
+  text-decoration: none;
+}
+
+.nav-links:hover {
+  text-decoration: underline;
+}
+h1 {
+  font-family: TimesNewRoman;
+  font-size: 72px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 1.44px;
+  text-align: left;
+  color: #0e1649;
+}
+button {
+  width: 157px;
+  margin: 16px 424px 0 0;
+  padding: 16px 32px;
+  border-radius: 12px;
+  border: 2px solid #ff9f00;
+  background-color: #ff9f00;
+  font-family: Assistant;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+}
+button:hover {
+  border: 2px solid #f08e0e;
+  background-color: #f08e0e;
+}
+button:focus {
+  border: solid 2px #d87a00;
+  background-color: #f08e0e;
+}
+button:active {
+  border: 2px solid #fb3;
+  background-color: #fb3;
+}
+p {
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1c1c1c;
+}
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  text-align: left;
+  color: #1c1c1c;
+}
+h5 {
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.69;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1c1c1c;
+}
+.content-boxes {
+  width: 1577px;
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+  left: 343px;
+}
+.box {
+  display: inline-block;
+}
+#yellow-box {
+  width: 526px;
+  background-color: #ff9f00;
+  padding: 32px 32px 64px 32px;
+}
+h4,
+h2 {
+  margin-bottom: 16px;
+}
+#orange-box {
+  width: 526px;
+  background-color: #ff7748;
+  padding: 32px 32px 64px 32px;
+}
+#pink-box {
+  background-color: #ff5288;
+  width: 525px;
+  padding: 32px 32px 64px 32px;
+}
