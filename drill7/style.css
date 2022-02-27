@@ -43,7 +43,7 @@
   text-decoration: none;
 }
 
-.nav-links:active {
+.nav-links:hover {
   text-decoration: underline;
   font-weight: bold;
 }
