@@ -1,19 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@800&display=swap');
 .container {
-  width: 100%;
+  width: 1920px;
+  min-width: 2000px;
   height: 100vh;
   background-image: url('./imgs/woman-img.png');
-  background-size: 100% 100vh;
+  background-size: 1920px 100vh;
   background-repeat: no-repeat;
   position: relative;
   font-family: Arial;
 }
 .custom-made {
-  width: 581px;
-  height: 347px;
   position: absolute;
   left: 518px;
   top: 238px;
+  /* margin: 238px; */
+  width: 581px;
+  height: 347px;
 }
 .sidebar {
   width: 343px;
@@ -31,7 +33,6 @@
 .nav-links {
   color: #fff;
   font-size: 18px;
-  font-weight: bold;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.5;
@@ -42,11 +43,12 @@
   text-decoration: none;
 }
 
-.nav-links:hover {
+.nav-links:active {
   text-decoration: underline;
+  font-weight: bold;
 }
 h1 {
-  font-family: TimesNewRoman;
+  font-family: Times New Roman;
   font-size: 72px;
   font-weight: bold;
   font-stretch: normal;
@@ -117,7 +119,7 @@ h5 {
   color: #1c1c1c;
 }
 .content-boxes {
-  width: 1577px;
+  width: 100ֵ;
   display: flex;
   position: absolute;
   bottom: 0px;

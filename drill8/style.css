@@ -11,6 +11,8 @@ nav {
   display: flex;
   padding: 0 64px;
   justify-content: space-between;
+  position: fixed;
+  top: 0px;
 }
 .nav-links {
   font-family: Assistant;
@@ -38,7 +40,7 @@ nav {
 
 /* Main Container */
 main {
-  margin: 64px 64px;
+  margin: 264px 64px;
 }
 
 article {
